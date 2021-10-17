@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  golang:
+    build:
+      context: ./golang
+    image: marcostech/golang2mb
